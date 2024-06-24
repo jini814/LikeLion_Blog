@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="kr"
+      xmlns:th="http://www.thymeleaf.org/"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Jlog 가입을 환영합니다!</title>
+    <link rel="stylesheet" th:href="@{/css/auth.css}">
+</head>
+<body>
+<div class="welcome-page"  layout:fragment="content">
+    <h1> Jlog 가입을 환영합니다!🥳 </h1>
+    <p th:if="${message}" class="welcome-message" th:text="${message}"></p>
+    <p th:if="${user}" class="user-info">환영합니다, <span th:text="${user.username}"></span>님!</p>
+    <a th:href="@{/}">Jlog로 돌아가기</a>
+</div>
+</body>
+</html>

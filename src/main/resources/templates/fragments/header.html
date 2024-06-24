@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/fragment.css}">
+
+</head>
+<div class="header-container" th:fragment="headerFragment">
+    <h2>Blog</h2>
+    <a th:href="@{/login}">로그인</a>
+    <p onclick="logOut()">로그아웃</p>
+</div>
+</html>

@@ -1,0 +1,156 @@
+.auth-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    gap: 40px;
+}
+
+.auth-page h1 {
+    color: #002233;
+    margin-bottom: 40px;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.auth-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto 0;
+}
+
+.auth-box {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: auto;
+}
+
+.auth-box hr {
+    border: 0.5px solid #bdbdbd;
+    margin: 20px 0 30px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.auth-form input {
+    font-size: 14px;
+    padding: 15px 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+}
+
+.auth-btn {
+    font-size: 18px;
+    color: white;
+    background-color: #00aaff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.auth-btn:hover {
+    background-color: #002233;
+}
+
+.login-option {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.login-option a {
+    color: #696969;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-option a:hover {
+    color: #002233;
+}
+
+.auth-form-box {
+    display: flex;
+    margin: 0;
+    gap: 16px;
+}
+
+.auth-form-box input {
+    flex: 1;
+}
+
+.auth-email-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #696969;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.auth-check-btn {
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    background-color: #00aaff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.auth-check-btn:hover {
+    background-color: #002233;
+}
+
+.auth-form-info {
+    font-size: 14px;
+    color: #ff4d00;
+}
+
+/* welcome.html */
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    margin: 50px auto;
+    gap: 10px;
+}
+
+.welcome-page h1 {
+    margin: 0 auto 10px;
+}
+
+.welcome-page p {
+    margin: 0 auto;
+}
+
+.welcome-page a {
+    color: #696969;
+    text-decoration: none;
+    margin: 40px auto 10px;
+    cursor: pointer;
+}
+
+.welcome-page a:hover {
+    color: #002233;
+}
